@@ -8,7 +8,8 @@ RUN apt-get update && \
         && \
     rm -rf /var/lib/apt/lists/*
 
-RUN wget https://releases.hashicorp.com/packer/0.10.1/packer_0.10.1_linux_amd64.zip && \
-    unzip packer_0.10.1_linux_amd64.zip && \
+RUN wget https://releases.hashicorp.com/packer/0.10.2/packer_0.10.2_linux_amd64.zip && \
+    unzip packer_0.10.2_linux_amd64.zip && \
     mv packer /bin/ && \
-    rm packer_0.10.1_linux_amd64.zip 
+    rm packer_0.10.2_linux_amd64.zip
+
